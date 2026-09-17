@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:coke_oven",
+  "creosote": 500,
+  "fluid": {
+    "amount": 500,
+    "tag": "minecraft:water"
+  },
+  "input": {
+    "basePredicate": {
+      "item": "minecraft:coal"
+    },
+    "count": 16
+  },
+  "result": {
+    "tag": "c:coal_coke"
+  },
+  "time": 6000
+}

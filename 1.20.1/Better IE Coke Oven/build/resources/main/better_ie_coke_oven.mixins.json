@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ahliu22.better_ie_coke_oven.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "better_ie_coke_oven.refmap.json",
+  "mixins": [
+    "MixinCokeOvenRecipe",
+    "MixinCokeOvenRecipeSerializer",
+    "MixinCokeOvenLogic",
+    "MixinCokeOvenRecipeCategory"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

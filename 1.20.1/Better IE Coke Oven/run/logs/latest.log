@@ -1,0 +1,311 @@
+[298月2026 23:01:53.906] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.4.23, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --nogui, --mixin.config, better_ie_coke_oven.mixins.json]
+[298月2026 23:01:53.915] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.3.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[298月2026 23:01:54.213] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[298月2026 23:01:54.323] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/liu29/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
+[298月2026 23:01:54.609] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.23\103ee0ecf6e5e4a971ee1ae68384e96fd73b097f\javafmllanguage-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.611] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.23\2531b2da1460bc09c8ec3bf946e641de664b460d\lowcodelanguage-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.614] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.23\eebf4eae01f6fde63717bb38b77f9b6b1b50f8\mclanguage-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.23\ef56cfb608a4356c3f99dd6a4fa81ce33029bcde\fmlcore-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.689] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[298月2026 23:01:56.615] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[298月2026 23:01:56.618] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, ., --nogui]
+[298月2026 23:01:56.676] [main/WARN] [mixin/]: Reference map 'better_ie_coke_oven.refmap.json' for better_ie_coke_oven.mixins.json could not be read. If this is a development environment you can ignore this message
+[298月2026 23:01:56.832] [main/INFO] [mixin/]: Remapping refMap immersiveengineering.refmap.json using D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\createSrgToMcp\output.srg
+[298月2026 23:02:01.473] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[298月2026 23:02:01.477] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.23, for MC 1.20.1 with MCP 20230612.114412
+[298月2026 23:02:01.477] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.23 Initialized
+[298月2026 23:02:02.017] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[298月2026 23:02:02.469] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[298月2026 23:02:02.648] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[298月2026 23:02:03.361] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/VertexConsumer for invalid dist DEDICATED_SERVER
+[298月2026 23:02:03.431] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[298月2026 23:02:03.465] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liu29/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.23_mapped_official_1.20.1/forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar%23193!/assets/.mcassetsroot' uses unexpected schema
+[298月2026 23:02:03.466] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liu29/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.23_mapped_official_1.20.1/forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar%23193!/data/.mcassetsroot' uses unexpected schema
+[298月2026 23:02:03.503] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/coke_fluid_test, loading it automatically
+[298月2026 23:02:04.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.23 Target: null
+[298月2026 23:02:04.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.20.1/changelog.json
+[298月2026 23:02:04.926] [main/INFO] [better_ie_coke_oven/]: [Better IECokeOven] Coke oven recipe 'better_test:coke_water' has custom fluid output: 500 mb of minecraft:water (overrides creosote)
+[298月2026 23:02:04.942] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 27 recipes
+[298月2026 23:02:05.009] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1896 advancements
+[298月2026 23:02:05.418] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[298月2026 23:02:05.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[298月2026 23:02:05.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[298月2026 23:02:05.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[298月2026 23:02:05.470] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[298月2026 23:02:05.480] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[298月2026 23:02:05.697] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[298月2026 23:02:05.697] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\immersiveengineering-server.toml is not correct. Correcting
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.sanitizeConnections was corrected from null to its default, false. 
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.transferRate was corrected from null to its default, 2048. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.loss was corrected from null to its default, 0.05. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.wireConnectorInput was corrected from null to its default, 256. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.transferRate was corrected from null to its default, 8192. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.loss was corrected from null to its default, 0.025. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.wireConnectorInput was corrected from null to its default, 1024. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.transferRate was corrected from null to its default, 32768. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.loss was corrected from null to its default, 0.025. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.wireConnectorInput was corrected from null to its default, 4096. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.rope was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.rope.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.cable was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.cable.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.redstone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.redstone.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_copper.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_electrum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_electrum.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.enableWireDamage was corrected from null to its default, true. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.blocksBreakWires was corrected from null to its default, true. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv.storage was corrected from null to its default, 100000. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv.input was corrected from null to its default, 256. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv.output was corrected from null to its default, 256. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv.storage was corrected from null to its default, 1000000. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv.input was corrected from null to its default, 1024. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv.output was corrected from null to its default, 1024. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv.storage was corrected from null to its default, 4000000. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv.input was corrected from null to its default, 4096. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv.output was corrected from null to its default, 4096. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo_output was corrected from null to its default, 3.0. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.thermoelectric_output was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lightning_output was corrected from null to its default, 16000000. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dieselGen_output was corrected from null to its default, 4096. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.external_heater was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.external_heater.consumption was corrected from null to its default, 8. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.external_heater.speedupConsumption was corrected from null to its default, 24. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.preheater_consumption was corrected from null to its default, 32. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.coredrill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.coredrill.time was corrected from null to its default, 200. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.coredrill.consumption was corrected from null to its default, 40. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump.consumption was corrected from null to its default, 250. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump.consumption_accelerate was corrected from null to its default, 5. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump.placeCobble was corrected from null to its default, true. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.charger_consumption was corrected from null to its default, 256. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil.consumption was corrected from null to its default, 256. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil.consumption_active was corrected from null to its default, 512. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil.damage was corrected from null to its default, 6.0. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret.consumption was corrected from null to its default, 64. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret.chem_consumption was corrected from null to its default, 32. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret.gun_consumption was corrected from null to its default, 32. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.consumption was corrected from null to its default, 8. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.fertilizer was corrected from null to its default, 6000. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.fluid was corrected from null to its default, 250. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.growth_modifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern.spawnPrevent was corrected from null to its default, true. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern.energyDraw was corrected from null to its default, 1. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern.maxStorage was corrected from null to its default, 10. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight.spawnPrevent was corrected from null to its default, true. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight.energyDraw was corrected from null to its default, 5. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight.max_storage was corrected from null to its default, 80. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.metal_press was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.metal_press.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.metal_press.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.crusher was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.crusher.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.crusher.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.squeezer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.squeezer.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.squeezer.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fermenter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fermenter.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fermenter.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.refinery was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.refinery.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.auto_workbench was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.auto_workbench.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.auto_workbench.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.bottling_machine was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.bottling_machine.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.bottling_machine.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.mixer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.mixer.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.mixer.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill_bladeDamage was corrected from null to its default, 5. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.electrodeDamage was corrected from null to its default, 96000. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.recycle was corrected from null to its default, . 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.assembler_consumption was corrected from null to its default, 80. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.consumption was corrected from null to its default, 4096. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.speed was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.particles was corrected from null to its default, true. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.chance was corrected from null to its default, 0.9. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.yield was corrected from null to its default, 38400. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.initial_depletion was corrected from null to its default, 0.2. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.vein_size was corrected from null to its default, 6. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.min_y was corrected from null to its default, 32. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.max_y was corrected from null to its default, 112. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.attempts_per_chunk was corrected from null to its default, 16. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.vein_size was corrected from null to its default, 8. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.min_y was corrected from null to its default, -32. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.max_y was corrected from null to its default, 80. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.attempts_per_chunk was corrected from null to its default, 12. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.air_exposure was corrected from null to its default, 0.25. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.vein_size was corrected from null to its default, 9. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.min_y was corrected from null to its default, -48. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.max_y was corrected from null to its default, 32. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.attempts_per_chunk was corrected from null to its default, 10. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.distribution was corrected from null to its default, UNIFORM. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.vein_size was corrected from null to its default, 5. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.min_y was corrected from null to its default, -64. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.max_y was corrected from null to its default, 24. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.attempts_per_chunk was corrected from null to its default, 7. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.vein_size was corrected from null to its default, 6. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.min_y was corrected from null to its default, -120. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.max_y was corrected from null to its default, -8. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.attempts_per_chunk was corrected from null to its default, 11. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.air_exposure was corrected from null to its default, 0.5. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.vein_size was corrected from null to its default, 4. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.min_y was corrected from null to its default, -64. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.max_y was corrected from null to its default, -16. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.attempts_per_chunk was corrected from null to its default, 9. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.retrogen_key was corrected from null to its default, DEFAULT. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.retrogen_log_flagChunk was corrected from null to its default, true. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.retrogen_log_remaining was corrected from null to its default, true. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.hammer_durability was corrected from null to its default, 100. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.cutter_durability was corrected from null to its default, 250. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.casull was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.ap was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.buck was corrected from null to its default, 2.0. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.dragon was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.homing was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.wolfpack was corrected from null to its default, 4.0. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.wolfpack_part was corrected from null to its default, 8.0. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.silver was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.phial was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.chemthrower was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.chemthrower.consumption was corrected from null to its default, 10. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.chemthrower.scroll was corrected from null to its default, true. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.railgun was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.railgun.consumption was corrected from null to its default, 800. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.railgun.damage_modifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.748] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[298月2026 23:02:07.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[298月2026 23:02:08.314] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[298月2026 23:02:08.327] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[298月2026 23:02:08.824] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[298月2026 23:02:09.326] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[298月2026 23:02:09.841] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[298月2026 23:02:10.331] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[298月2026 23:02:10.824] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[298月2026 23:02:11.328] [Worker-Main-27/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[298月2026 23:02:11.828] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[298月2026 23:02:12.324] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[298月2026 23:02:13.950] [Worker-Main-25/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[298月2026 23:02:13.950] [Worker-Main-25/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[298月2026 23:02:13.957] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[298月2026 23:02:14.326] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[298月2026 23:02:14.824] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[298月2026 23:02:15.325] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[298月2026 23:02:15.828] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[298月2026 23:02:16.333] [Worker-Main-28/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[298月2026 23:02:16.829] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[298月2026 23:02:17.341] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[298月2026 23:02:17.853] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[298月2026 23:02:18.324] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[298月2026 23:02:18.824] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[298月2026 23:02:19.312] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpTimeoutException: request timed out
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:571) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.4.23.jar%23197!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.4.23.jar%23197!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.23.jar%23197!/:?]
+[298月2026 23:02:19.324] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[298月2026 23:02:19.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[298月2026 23:02:20.327] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[298月2026 23:02:20.824] [Worker-Main-30/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[298月2026 23:02:21.334] [Worker-Main-24/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[298月2026 23:02:21.828] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[298月2026 23:02:22.328] [Worker-Main-28/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[298月2026 23:02:22.766] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14943 ms
+[298月2026 23:02:22.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.072s)! For help, type "help"
+[298月2026 23:02:22.779] [Server thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [better_ie_coke_oven]
+[298月2026 23:02:22.783] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[298月2026 23:02:22.811] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 radiator, missing knowledge for {1 water_bucket=0.25}
+[298月2026 23:02:22.811] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 27 milliseconds
+[298月2026 23:02:23.679] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Could not load contributor+special revolver list.
+java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[?:?]
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at java.net.URL.openStream(URL.java:1161) ~[?:?]
+	at blusunrize.immersiveengineering.ImmersiveEngineering$ThreadContributorSpecialsDownloader.run(ImmersiveEngineering.java:329) ~[ImmersiveEngineering-deobf.jar%23191!/:?]

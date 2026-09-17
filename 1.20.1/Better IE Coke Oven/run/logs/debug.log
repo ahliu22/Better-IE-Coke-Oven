@@ -1,0 +1,1275 @@
+[298月2026 23:01:53.906] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.4.23, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --nogui, --mixin.config, better_ie_coke_oven.mixins.json]
+[298月2026 23:01:53.915] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.3.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[298月2026 23:01:53.997] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[298月2026 23:01:54.016] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[298月2026 23:01:54.030] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[298月2026 23:01:54.038] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[298月2026 23:01:54.044] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run
+[298月2026 23:01:54.045] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\mods
+[298月2026 23:01:54.045] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\config
+[298月2026 23:01:54.045] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\config\fml.toml
+[298月2026 23:01:54.203] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[298月2026 23:01:54.213] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[298月2026 23:01:54.232] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[298月2026 23:01:54.232] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[298月2026 23:01:54.232] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[298月2026 23:01:54.232] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[298月2026 23:01:54.232] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[298月2026 23:01:54.244] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[298月2026 23:01:54.244] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[298月2026 23:01:54.245] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[298月2026 23:01:54.245] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Requesting CoreMods to not apply the fix for ASMAPI.findFirstInstructionBefore by default
+[298月2026 23:01:54.246] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[298月2026 23:01:54.246] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.2.33
+[298月2026 23:01:54.246] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[298月2026 23:01:54.252] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/]: CoreMods will preserve legacy behavior of ASMAPI.findFirstInstructionBefore for backwards-compatibility
+[298月2026 23:01:54.252] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.4
+[298月2026 23:01:54.253] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[298月2026 23:01:54.253] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[298月2026 23:01:54.253] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[298月2026 23:01:54.255] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[298月2026 23:01:54.274] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[298月2026 23:01:54.275] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[298月2026 23:01:54.300] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@72a7c7e0
+[298月2026 23:01:54.323] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/liu29/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
+[298月2026 23:01:54.332] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[298月2026 23:01:54.334] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[298月2026 23:01:54.334] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[298月2026 23:01:54.336] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[298月2026 23:01:54.336] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[298月2026 23:01:54.336] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[298月2026 23:01:54.336] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[298月2026 23:01:54.336] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[298月2026 23:01:54.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[298月2026 23:01:54.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run
+[298月2026 23:01:54.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\mods
+[298月2026 23:01:54.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\config
+[298月2026 23:01:54.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\config\fml.toml
+[298月2026 23:01:54.343] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[298月2026 23:01:54.343] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[298月2026 23:01:54.349] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[298月2026 23:01:54.350] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserveruserdev as launch service
+[298月2026 23:01:54.365] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.4.23, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[298月2026 23:01:54.365] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[298月2026 23:01:54.365] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[298月2026 23:01:54.372] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[298月2026 23:01:54.372] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[298月2026 23:01:54.372] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[298月2026 23:01:54.372] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[298月2026 23:01:54.372] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[298月2026 23:01:54.372] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[298月2026 23:01:54.389] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[298月2026 23:01:54.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[298月2026 23:01:54.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[298月2026 23:01:54.408] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\mods\ImmersiveEngineering-deobf.jar
+[298月2026 23:01:54.464] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ImmersiveEngineering-deobf.jar with {immersiveengineering} mods - versions {1.20.1-10.2.0-183}
+[298月2026 23:01:54.472] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates better_ie_coke_oven%%D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\resources\main;better_ie_coke_oven%%D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\classes\java\main from env
+[298月2026 23:01:54.477] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{better_ie_coke_oven=[D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\resources\main, D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\classes\java\main]}]
+[298月2026 23:01:54.605] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar with {minecraft} mods - versions {1.20.1}
+[298月2026 23:01:54.609] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.23\103ee0ecf6e5e4a971ee1ae68384e96fd73b097f\javafmllanguage-1.20.1-47.4.23.jar
+[298月2026 23:01:54.609] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.23\103ee0ecf6e5e4a971ee1ae68384e96fd73b097f\javafmllanguage-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.23\2531b2da1460bc09c8ec3bf946e641de664b460d\lowcodelanguage-1.20.1-47.4.23.jar
+[298月2026 23:01:54.611] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.23\2531b2da1460bc09c8ec3bf946e641de664b460d\lowcodelanguage-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.613] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.23\eebf4eae01f6fde63717bb38b77f9b6b1b50f8\mclanguage-1.20.1-47.4.23.jar
+[298月2026 23:01:54.614] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.23\eebf4eae01f6fde63717bb38b77f9b6b1b50f8\mclanguage-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.616] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.23\ef56cfb608a4356c3f99dd6a4fa81ce33029bcde\fmlcore-1.20.1-47.4.23.jar
+[298月2026 23:01:54.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liu29\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.23\ef56cfb608a4356c3f99dd6a4fa81ce33029bcde\fmlcore-1.20.1-47.4.23.jar is missing mods.toml file
+[298月2026 23:01:54.620] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\resources\main
+[298月2026 23:01:54.624] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {better_ie_coke_oven} mods - versions {1.0.0-1.20.1}
+[298月2026 23:01:54.624] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[298月2026 23:01:54.625] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {47.4.23}
+[298月2026 23:01:54.658] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar, it does not contain dependency information.
+[298月2026 23:01:54.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[298月2026 23:01:54.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[298月2026 23:01:54.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from ImmersiveEngineering-deobf.jar, it does not contain dependency information.
+[298月2026 23:01:54.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.20.1-47.4.23.jar, it does not contain dependency information.
+[298月2026 23:01:54.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.20.1-47.4.23.jar, it does not contain dependency information.
+[298月2026 23:01:54.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.20.1-47.4.23.jar, it does not contain dependency information.
+[298月2026 23:01:54.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.20.1-47.4.23.jar, it does not contain dependency information.
+[298月2026 23:01:54.689] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[298月2026 23:01:54.691] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar with {minecraft} mods - versions {1.20.1}
+[298月2026 23:01:54.692] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\liu29\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.23_mapped_official_1.20.1\forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[298月2026 23:01:54.694] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\resources\main
+[298月2026 23:01:54.696] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {better_ie_coke_oven} mods - versions {1.0.0-1.20.1}
+[298月2026 23:01:54.697] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[298月2026 23:01:54.697] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[298月2026 23:01:54.697] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {47.4.23}
+[298月2026 23:01:54.698] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[298月2026 23:01:54.721] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[298月2026 23:01:54.722] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[298月2026 23:01:54.722] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[298月2026 23:01:54.722] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[298月2026 23:01:54.722] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[298月2026 23:01:54.722] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[298月2026 23:01:54.722] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[298月2026 23:01:54.722] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[298月2026 23:01:54.724] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\mods\ImmersiveEngineering-deobf.jar
+[298月2026 23:01:54.725] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ImmersiveEngineering-deobf.jar with {immersiveengineering} mods - versions {1.20.1-10.2.0-183}
+[298月2026 23:01:54.725] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\mods\ImmersiveEngineering-deobf.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[25,)]]
+[298月2026 23:01:54.726] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[298月2026 23:01:54.737] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[298月2026 23:01:54.737] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[298月2026 23:01:54.738] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 47
+[298月2026 23:01:54.738] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 47
+[298月2026 23:01:54.743] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[298月2026 23:01:54.744] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[298月2026 23:01:54.744] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[298月2026 23:01:54.746] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 7 mod requirements (5 mandatory, 2 optional)
+[298月2026 23:01:54.747] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[298月2026 23:01:55.041] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 33222 method mappings from methods.csv
+[298月2026 23:01:55.069] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 31003 field mappings from fields.csv
+[298月2026 23:01:55.130] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[298月2026 23:01:55.131] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[298月2026 23:01:55.132] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[298月2026 23:01:55.132] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[298月2026 23:01:55.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[298月2026 23:01:55.132] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[298月2026 23:01:55.507] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[298月2026 23:01:55.507] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[298月2026 23:01:55.618] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[298月2026 23:01:55.618] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[298月2026 23:01:55.662] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[298月2026 23:01:55.662] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[298月2026 23:01:55.733] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[298月2026 23:01:55.772] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3ebe4ccc to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[298月2026 23:01:55.772] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2dfb885e to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[298月2026 23:01:55.772] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6cbe7d4d to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[298月2026 23:01:55.772] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1e3e1014 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3679d92e to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@47b11ec7 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@58fa5769 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@36aa52d2 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4ee25d80 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[298月2026 23:01:55.779] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[298月2026 23:01:55.780] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[298月2026 23:01:55.780] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[298月2026 23:01:55.780] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[298月2026 23:01:55.780] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[298月2026 23:01:55.780] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[298月2026 23:01:55.780] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a35bd to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[298月2026 23:01:55.780] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[298月2026 23:01:56.604] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[298月2026 23:01:56.604] [main/DEBUG] [mixin/]: Registering mixin config: better_ie_coke_oven.mixins.json
+[298月2026 23:01:56.614] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by better_ie_coke_oven.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[298月2026 23:01:56.615] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(better_ie_coke_oven)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(better_ie_coke_oven)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(better_ie_coke_oven)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(better_ie_coke_oven)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(better_ie_coke_oven)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(better_ie_coke_oven)]
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[298月2026 23:01:56.616] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[298月2026 23:01:56.617] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(immersiveengineering)
+[298月2026 23:01:56.617] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(immersiveengineering)
+[298月2026 23:01:56.617] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(immersiveengineering)
+[298月2026 23:01:56.617] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(immersiveengineering)
+[298月2026 23:01:56.617] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(immersiveengineering)
+[298月2026 23:01:56.617] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(immersiveengineering)]
+[298月2026 23:01:56.617] [main/DEBUG] [mixin/]: Registering mixin config: immersiveengineering.mixins.json
+[298月2026 23:01:56.618] [main/DEBUG] [mixin/]: inject() running with 5 agents
+[298月2026 23:01:56.618] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[298月2026 23:01:56.618] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[298月2026 23:01:56.618] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(better_ie_coke_oven)]
+[298月2026 23:01:56.618] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[298月2026 23:01:56.618] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(immersiveengineering)]
+[298月2026 23:01:56.618] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, ., --nogui]
+[298月2026 23:01:56.673] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[298月2026 23:01:56.675] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[298月2026 23:01:56.675] [main/DEBUG] [mixin/]: Selecting config better_ie_coke_oven.mixins.json
+[298月2026 23:01:56.676] [main/WARN] [mixin/]: Reference map 'better_ie_coke_oven.refmap.json' for better_ie_coke_oven.mixins.json could not be read. If this is a development environment you can ignore this message
+[298月2026 23:01:56.677] [main/DEBUG] [mixin/]: Selecting config immersiveengineering.mixins.json
+[298月2026 23:01:56.692] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[298月2026 23:01:56.694] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[298月2026 23:01:56.694] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[298月2026 23:01:56.695] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[298月2026 23:01:56.696] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[298月2026 23:01:56.697] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[298月2026 23:01:56.700] [main/DEBUG] [mixin/]: Registering new injector for @CaptureOwner with blusunrize.immersiveengineering.common.mixin.CaptureOwnerInjectionInfo
+[298月2026 23:01:56.832] [main/INFO] [mixin/]: Remapping refMap immersiveengineering.refmap.json using D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\createSrgToMcp\output.srg
+[298月2026 23:01:56.833] [main/DEBUG] [mixin/]: Preparing better_ie_coke_oven.mixins.json (4)
+[298月2026 23:01:56.858] [main/DEBUG] [mixin/]: Preparing immersiveengineering.mixins.json (37)
+[298月2026 23:01:56.914] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[298月2026 23:01:57.114] [main/DEBUG] [mixin/]: Prepared 26 mixins in 0.438 sec (16.8ms avg) (0ms load, 0ms transform, 0ms plugin)
+[298月2026 23:01:57.207] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[298月2026 23:01:57.216] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[298月2026 23:01:57.217] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[298月2026 23:01:57.384] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@8cc8cdb
+[298月2026 23:01:57.643] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@8cc8cdb
+[298月2026 23:01:57.998] [main/DEBUG] [mixin/]: Mixing coremods.AbstractBlockStateMixin from immersiveengineering.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[298月2026 23:01:58.067] [main/DEBUG] [mixin/]: Mixing accessors.ItemEntityAccess from immersiveengineering.mixins.json into net.minecraft.world.entity.item.ItemEntity
+[298月2026 23:01:58.118] [main/DEBUG] [mixin/]: Mixing coremods.ServerWorldMixin from immersiveengineering.mixins.json into net.minecraft.server.level.ServerLevel
+[298月2026 23:01:58.218] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[298月2026 23:01:58.259] [main/DEBUG] [mixin/]: Mixing accessors.BETypeAccess from immersiveengineering.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[298月2026 23:01:58.560] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[298月2026 23:01:58.585] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[298月2026 23:01:58.593] [main/DEBUG] [mixin/]: Mixing accessors.CropBlockAccess from immersiveengineering.mixins.json into net.minecraft.world.level.block.CropBlock
+[298月2026 23:01:58.635] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[298月2026 23:01:58.656] [main/DEBUG] [mixin/]: Mixing accessors.ConcretePowderBlockAccess from immersiveengineering.mixins.json into net.minecraft.world.level.block.ConcretePowderBlock
+[298月2026 23:01:58.708] [main/DEBUG] [mixin/]: Mixing accessors.FlowingFluidAccess from immersiveengineering.mixins.json into net.minecraft.world.level.material.FlowingFluid
+[298月2026 23:01:58.950] [main/DEBUG] [mixin/]: Mixing accessors.TNTEntityAccess from immersiveengineering.mixins.json into net.minecraft.world.entity.item.PrimedTnt
+[298月2026 23:01:59.048] [main/DEBUG] [mixin/]: Mixing accessors.ContainerAccess from immersiveengineering.mixins.json into net.minecraft.world.inventory.AbstractContainerMenu
+[298月2026 23:01:59.059] [main/DEBUG] [mixin/]: Mixing accessors.FurnaceTEAccess from immersiveengineering.mixins.json into net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity
+[298月2026 23:01:59.204] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[298月2026 23:01:59.605] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[298月2026 23:01:59.638] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[298月2026 23:02:00.249] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[298月2026 23:02:00.273] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[298月2026 23:02:00.290] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[298月2026 23:02:00.334] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[298月2026 23:02:00.501] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[298月2026 23:02:00.516] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[298月2026 23:02:00.612] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[298月2026 23:02:00.692] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[298月2026 23:02:00.740] [main/DEBUG] [mixin/]: Mixing accessors.ServerPlayNetHandlerAccess from immersiveengineering.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[298月2026 23:02:00.770] [main/DEBUG] [mixin/]: Mixing accessors.PotionBrewingAccess from immersiveengineering.mixins.json into net.minecraft.world.item.alchemy.PotionBrewing
+[298月2026 23:02:00.770] [main/DEBUG] [mixin/]: Renaming @Accessor method getConversions()Ljava/util/List; to getConversions_$md$5273f1$0 in immersiveengineering.mixins.json:accessors.PotionBrewingAccess
+[298月2026 23:02:01.073] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[298月2026 23:02:01.093] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[298月2026 23:02:01.097] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[298月2026 23:02:01.101] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[298月2026 23:02:01.111] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[298月2026 23:02:01.123] [main/DEBUG] [mixin/]: Mixing accessors.TemplatePoolAccess from immersiveengineering.mixins.json into net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool
+[298月2026 23:02:01.168] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[298月2026 23:02:01.296] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[298月2026 23:02:01.300] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.309] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.309] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.313] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.313] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.316] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.317] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.317] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.317] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block_entity_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.318] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:particle_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.318] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.318] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.318] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.318] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_serializer Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.319] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:attribute Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.319] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:stat_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.319] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:command_argument_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.319] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.319] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.320] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:memory_module_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.320] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sensor_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.320] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:schedule Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.320] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:activity Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.320] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/carver Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.320] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/feature Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.321] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:chunk_status Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.321] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/block_state_provider_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.321] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/foliage_placer_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.321] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/tree_decorator_type Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.321] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome Sync: VANILLA -> ACTIVE
+[298月2026 23:02:01.326] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[298月2026 23:02:01.357] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[298月2026 23:02:01.357] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[298月2026 23:02:01.358] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[298月2026 23:02:01.359] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[298月2026 23:02:01.359] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[298月2026 23:02:01.360] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[298月2026 23:02:01.361] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:62) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeServerUserdevLaunchHandler.devService(ForgeServerUserdevLaunchHandler.java:16) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[298月2026 23:02:01.368] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[298月2026 23:02:01.369] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:62) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeServerUserdevLaunchHandler.devService(ForgeServerUserdevLaunchHandler.java:16) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.23.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[298月2026 23:02:01.371] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[298月2026 23:02:01.371] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[298月2026 23:02:01.372] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8371830784 bytes (maybe)
+[298月2026 23:02:01.373] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\liu29\AppData\Local\Temp (java.io.tmpdir)
+[298月2026 23:02:01.373] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[298月2026 23:02:01.373] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[298月2026 23:02:01.374] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[298月2026 23:02:01.374] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[298月2026 23:02:01.374] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[298月2026 23:02:01.374] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[298月2026 23:02:01.414] [main/DEBUG] [net.minecraftforge.network.NetworkHooks/]: Loading Network data for FML net version: FML3
+[298月2026 23:02:01.427] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6434
+[298月2026 23:02:01.436] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 32 threads for parallel mod-loading
+[298月2026 23:02:01.439] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@8cc8cdb - got cpw.mods.cl.ModuleClassLoader@6d91790b
+[298月2026 23:02:01.441] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.ahliu22.better_ie_coke_oven.BetterIECokeOven
+[298月2026 23:02:01.443] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@8cc8cdb - got cpw.mods.cl.ModuleClassLoader@6d91790b
+[298月2026 23:02:01.443] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[298月2026 23:02:01.444] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@8cc8cdb - got cpw.mods.cl.ModuleClassLoader@6d91790b
+[298月2026 23:02:01.444] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for blusunrize.immersiveengineering.ImmersiveEngineering
+[298月2026 23:02:01.465] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for better_ie_coke_oven
+[298月2026 23:02:01.473] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[298月2026 23:02:01.476] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.4 from cpw.mods.modlauncher.TransformingClassLoader@8cc8cdb
+[298月2026 23:02:01.476] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.4.23
+[298月2026 23:02:01.476] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.4
+[298月2026 23:02:01.476] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[298月2026 23:02:01.477] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@8cc8cdb
+[298月2026 23:02:01.477] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.1
+[298月2026 23:02:01.477] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20230612.114412
+[298月2026 23:02:01.477] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.23, for MC 1.20.1 with MCP 20230612.114412
+[298月2026 23:02:01.477] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.23 Initialized
+[298月2026 23:02:01.498] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinCokeOvenRecipe from better_ie_coke_oven.mixins.json into blusunrize.immersiveengineering.api.crafting.CokeOvenRecipe
+[298月2026 23:02:01.505] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[298月2026 23:02:01.505] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[298月2026 23:02:01.505] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[298月2026 23:02:01.508] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinCokeOvenRecipeSerializer from better_ie_coke_oven.mixins.json into blusunrize.immersiveengineering.common.crafting.serializers.CokeOvenRecipeSerializer
+[298月2026 23:02:01.551] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[298月2026 23:02:01.554] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[298月2026 23:02:01.572] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file immersiveengineering-common.toml for immersiveengineering tracking
+[298月2026 23:02:01.573] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file immersiveengineering-client.toml for immersiveengineering tracking
+[298月2026 23:02:01.583] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file immersiveengineering-server.toml for immersiveengineering tracking
+[298月2026 23:02:01.810] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinCokeOvenLogic from better_ie_coke_oven.mixins.json into blusunrize.immersiveengineering.common.blocks.multiblocks.logic.CokeOvenLogic
+[298月2026 23:02:01.814] [modloading-worker-0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[298月2026 23:02:01.954] [modloading-worker-0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[298月2026 23:02:01.967] [modloading-worker-0/DEBUG] [mixin/]: Mixing accessors.TemplateAccess from immersiveengineering.mixins.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate
+[298月2026 23:02:01.973] [modloading-worker-0/DEBUG] [mixin/]: Mixing coremods.TemplateMixin from immersiveengineering.mixins.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate
+[298月2026 23:02:02.017] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[298月2026 23:02:02.020] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for immersiveengineering
+[298月2026 23:02:02.021] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.world.Villages to FORGE
+[298月2026 23:02:02.021] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.world.Villages$Registers to MOD
+[298月2026 23:02:02.021] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.world.Villages$Events to FORGE
+[298月2026 23:02:02.022] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.wires.WireSyncManager to FORGE
+[298月2026 23:02:02.025] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.util.loot.IELootFunctions to MOD
+[298月2026 23:02:02.025] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.util.SpawnInterdictionHandler to FORGE
+[298月2026 23:02:02.027] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.util.FakePlayerUtil to FORGE
+[298月2026 23:02:02.028] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.register.IECreativeTabs to MOD
+[298月2026 23:02:02.028] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.items.DrillItem to FORGE
+[298月2026 23:02:02.031] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.gui.IEContainerMenu to FORGE
+[298月2026 23:02:02.033] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.config.IEServerConfig to MOD
+[298月2026 23:02:02.033] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.config.IECommonConfig to MOD
+[298月2026 23:02:02.033] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.blocks.multiblocks.TemplateSyncManager to FORGE
+[298月2026 23:02:02.034] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.blocks.metal.FluidPipeBlockEntity to FORGE
+[298月2026 23:02:02.038] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.blocks.metal.ConveyorBeltBlockEntity to MOD
+[298月2026 23:02:02.041] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.common.IEContent to MOD
+[298月2026 23:02:02.042] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.api.wires.NetworkSanitizer to FORGE
+[298月2026 23:02:02.042] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.api.wires.GlobalWireNetwork to FORGE
+[298月2026 23:02:02.045] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.api.utils.SafeChunkUtils to FORGE
+[298月2026 23:02:02.046] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blusunrize.immersiveengineering.api.crafting.cache.CachedRecipeList to FORGE
+[298月2026 23:02:02.063] [main/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Processing ObjectHolder annotations
+[298月2026 23:02:02.077] [main/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Found 4977 ObjectHolder annotations
+[298月2026 23:02:02.081] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[298月2026 23:02:02.081] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[298月2026 23:02:02.081] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[298月2026 23:02:02.081] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[298月2026 23:02:02.083] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Unfreezing vanilla registries
+[298月2026 23:02:02.084] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sound_event
+[298月2026 23:02:02.088] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sound_event
+[298月2026 23:02:02.110] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:fluid
+[298月2026 23:02:02.111] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:fluid
+[298月2026 23:02:02.180] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block
+[298月2026 23:02:02.183] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block
+[298月2026 23:02:02.183] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:attribute
+[298月2026 23:02:02.183] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:attribute
+[298月2026 23:02:02.189] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:mob_effect
+[298月2026 23:02:02.190] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:mob_effect
+[298月2026 23:02:02.203] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:particle_type
+[298月2026 23:02:02.204] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:particle_type
+[298月2026 23:02:02.227] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:item
+[298月2026 23:02:02.229] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:item
+[298月2026 23:02:02.233] [main/DEBUG] [mixin/]: Mixing accessors.ExplosionAccess from immersiveengineering.mixins.json into net.minecraft.world.level.Explosion
+[298月2026 23:02:02.233] [main/DEBUG] [mixin/]: Renaming @Invoker method callAddBlockDrops(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/BlockPos;)V to callAddBlockDrops_$md$5273f1$0 in immersiveengineering.mixins.json:accessors.ExplosionAccess
+[298月2026 23:02:02.265] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:entity_type
+[298月2026 23:02:02.267] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:entity_type
+[298月2026 23:02:02.267] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sensor_type
+[298月2026 23:02:02.267] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sensor_type
+[298月2026 23:02:02.267] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:memory_module_type
+[298月2026 23:02:02.268] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:memory_module_type
+[298月2026 23:02:02.268] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:potion
+[298月2026 23:02:02.268] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:potion
+[298月2026 23:02:02.268] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:game_event
+[298月2026 23:02:02.268] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:game_event
+[298月2026 23:02:02.268] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:enchantment
+[298月2026 23:02:02.268] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:enchantment
+[298月2026 23:02:02.274] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block_entity_type
+[298月2026 23:02:02.275] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block_entity_type
+[298月2026 23:02:02.275] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:painting_variant
+[298月2026 23:02:02.275] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:painting_variant
+[298月2026 23:02:02.275] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:stat_type
+[298月2026 23:02:02.275] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:stat_type
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:custom_stat
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:custom_stat
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_status
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_status
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:rule_test
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:rule_test
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:rule_block_entity_modifier
+[298月2026 23:02:02.276] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:rule_block_entity_modifier
+[298月2026 23:02:02.277] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:pos_rule_test
+[298月2026 23:02:02.277] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:pos_rule_test
+[298月2026 23:02:02.280] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:menu
+[298月2026 23:02:02.281] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:menu
+[298月2026 23:02:02.281] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:recipe_type
+[298月2026 23:02:02.281] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:recipe_type
+[298月2026 23:02:02.313] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:recipe_serializer
+[298月2026 23:02:02.314] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:recipe_serializer
+[298月2026 23:02:02.314] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:position_source_type
+[298月2026 23:02:02.314] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:position_source_type
+[298月2026 23:02:02.317] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:command_argument_type
+[298月2026 23:02:02.318] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:command_argument_type
+[298月2026 23:02:02.318] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:villager_type
+[298月2026 23:02:02.318] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:villager_type
+[298月2026 23:02:02.319] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:villager_profession
+[298月2026 23:02:02.319] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:villager_profession
+[298月2026 23:02:02.320] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:point_of_interest_type
+[298月2026 23:02:02.320] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:point_of_interest_type
+[298月2026 23:02:02.320] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:schedule
+[298月2026 23:02:02.320] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:schedule
+[298月2026 23:02:02.320] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:activity
+[298月2026 23:02:02.321] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:activity
+[298月2026 23:02:02.321] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_pool_entry_type
+[298月2026 23:02:02.321] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_pool_entry_type
+[298月2026 23:02:02.326] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_function_type
+[298月2026 23:02:02.327] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_function_type
+[298月2026 23:02:02.330] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_condition_type
+[298月2026 23:02:02.330] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_condition_type
+[298月2026 23:02:02.330] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_number_provider_type
+[298月2026 23:02:02.330] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_number_provider_type
+[298月2026 23:02:02.330] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_nbt_provider_type
+[298月2026 23:02:02.330] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_nbt_provider_type
+[298月2026 23:02:02.330] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_score_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_score_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:float_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:float_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:int_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:int_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:height_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:height_provider_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block_predicate_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block_predicate_type
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/carver
+[298月2026 23:02:02.331] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/carver
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/feature
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/feature
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_processor
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_processor
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_placement
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_placement
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_piece
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_piece
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_type
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_type
+[298月2026 23:02:02.335] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/placement_modifier_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/placement_modifier_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/block_state_provider_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/block_state_provider_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/foliage_placer_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/foliage_placer_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/trunk_placer_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/trunk_placer_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/root_placer_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/root_placer_type
+[298月2026 23:02:02.336] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/tree_decorator_type
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/tree_decorator_type
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/feature_size_type
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/feature_size_type
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/biome_source
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/biome_source
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/chunk_generator
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/chunk_generator
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/material_condition
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/material_condition
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/material_rule
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/material_rule
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/density_function_type
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/density_function_type
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_pool_element
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_pool_element
+[298月2026 23:02:02.337] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:cat_variant
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:cat_variant
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:frog_variant
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:frog_variant
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:banner_pattern
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:banner_pattern
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:instrument
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:instrument
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:decorated_pot_patterns
+[298月2026 23:02:02.338] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:decorated_pot_patterns
+[298月2026 23:02:02.351] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:creative_mode_tab
+[298月2026 23:02:02.353] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:creative_mode_tab
+[298月2026 23:02:02.359] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:biome_modifier_serializers
+[298月2026 23:02:02.360] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:biome_modifier_serializers
+[298月2026 23:02:02.361] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:display_contexts
+[298月2026 23:02:02.361] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:display_contexts
+[298月2026 23:02:02.361] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:entity_data_serializers
+[298月2026 23:02:02.361] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:entity_data_serializers
+[298月2026 23:02:02.362] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:fluid_type
+[298月2026 23:02:02.362] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:fluid_type
+[298月2026 23:02:02.362] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:global_loot_modifier_serializers
+[298月2026 23:02:02.363] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:global_loot_modifier_serializers
+[298月2026 23:02:02.365] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:holder_set_type
+[298月2026 23:02:02.365] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:holder_set_type
+[298月2026 23:02:02.365] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:structure_modifier_serializers
+[298月2026 23:02:02.366] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:structure_modifier_serializers
+[298月2026 23:02:02.366] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/biome
+[298月2026 23:02:02.366] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/biome
+[298月2026 23:02:02.420] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[298月2026 23:02:02.422] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\config\immersiveengineering-common.toml
+[298月2026 23:02:02.422] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\config\immersiveengineering-common.toml
+[298月2026 23:02:02.427] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\config\immersiveengineering-common.toml for changes
+[298月2026 23:02:02.435] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file immersiveengineering-common.toml changed, sending notifies
+[298月2026 23:02:02.469] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[298月2026 23:02:02.499] [modloading-worker-0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[298月2026 23:02:02.571] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 1 jobs
+[298月2026 23:02:02.577] [main/DEBUG] [mixin/]: Mixing accessors.HeroGiftsTaskAccess from immersiveengineering.mixins.json into net.minecraft.world.entity.ai.behavior.GiveGiftToHero
+[298月2026 23:02:02.587] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 12.06 ms
+[298月2026 23:02:02.591] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Freezing registries
+[298月2026 23:02:02.593] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.595] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.595] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.599] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.599] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.601] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.601] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.601] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.601] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block_entity_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.601] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:particle_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_serializer Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:attribute Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:stat_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:command_argument_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.603] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.604] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:memory_module_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sensor_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:schedule Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:activity Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/carver Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/feature Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:chunk_status Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/block_state_provider_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/foliage_placer_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/tree_decorator_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:entity_data_serializers Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.605] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:biome_modifier_serializers Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.606] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:fluid_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.606] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:structure_modifier_serializers Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.606] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:holder_set_type Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.606] [main/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:display_contexts Sync: FROZEN -> ACTIVE
+[298月2026 23:02:02.648] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[298月2026 23:02:03.361] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/VertexConsumer for invalid dist DEDICATED_SERVER
+[298月2026 23:02:03.407] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: All registries frozen
+[298月2026 23:02:03.431] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[298月2026 23:02:03.465] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liu29/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.23_mapped_official_1.20.1/forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar%23193!/assets/.mcassetsroot' uses unexpected schema
+[298月2026 23:02:03.466] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liu29/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.23_mapped_official_1.20.1/forge-1.20.1-47.4.23_mapped_official_1.20.1-recomp.jar%23193!/data/.mcassetsroot' uses unexpected schema
+[298月2026 23:02:03.501] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:better_ie_coke_oven for mod file D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\build\resources\main
+[298月2026 23:02:03.501] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[298月2026 23:02:03.501] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:immersiveengineering for mod file D:\mc\mcmod\Better IE Coke Oven\1.20.1\Better IE Coke Oven\run\mods\ImmersiveEngineering-deobf.jar
+[298月2026 23:02:03.503] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/coke_fluid_test, loading it automatically
+[298月2026 23:02:04.221] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[298月2026 23:02:04.308] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2864",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.30",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.62",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.12",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.2",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.5",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.4.10",
+    "1.20.1-latest": "47.4.23",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.2.8",
+    "1.20.4-recommended": "49.2.0",
+    "1.20.6-latest": "50.2.10",
+    "1.20.6-recommended": "50.2.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.1.16",
+    "1.21.1-recommended": "52.1.0",
+    "1.21.3-latest": "53.1.12",
+    "1.21.3-recommended": "53.1.0",
+    "1.21.4-latest": "54.1.18",
+    "1.21.4-recommended": "54.1.14",
+    "1.21.5-latest": "55.1.13",
+    "1.21.5-recommended": "55.1.0",
+    "1.21.6-latest": "56.0.9",
+    "1.21.7-latest": "57.0.3",
+    "1.21.8-latest": "58.1.22",
+    "1.21.8-recommended": "58.1.0",
+    "1.21.9-latest": "59.0.5",
+    "1.21.10-latest": "60.1.15",
+    "1.21.10-recommended": "60.1.0",
+    "1.21.11-latest": "61.2.1",
+    "1.21.11-recommended": "61.2.0",
+    "26.1-latest": "62.0.9",
+    "26.1.1-latest": "63.0.2",
+    "26.1.2-latest": "64.1.3",
+    "26.1.2-recommended": "64.1.0",
+    "26.2-latest": "65.1.3",
+    "26.2-recommended": "65.1.0"
+  }
+}
+[298月2026 23:02:04.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.23 Target: null
+[298月2026 23:02:04.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.20.1/changelog.json
+[298月2026 23:02:04.890] [main/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[298月2026 23:02:04.890] [main/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[298月2026 23:02:04.890] [main/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x514af13fe3c2aab0
+[298月2026 23:02:04.926] [main/INFO] [better_ie_coke_oven/]: [Better IECokeOven] Coke oven recipe 'better_test:coke_water' has custom fluid output: 500 mb of minecraft:water (overrides creosote)
+[298月2026 23:02:04.942] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 27 recipes
+[298月2026 23:02:05.009] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1896 advancements
+[298月2026 23:02:05.368] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[298月2026 23:02:05.384] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[298月2026 23:02:05.418] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[298月2026 23:02:05.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[298月2026 23:02:05.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[298月2026 23:02:05.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[298月2026 23:02:05.470] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[298月2026 23:02:05.470] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[298月2026 23:02:05.480] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[298月2026 23:02:05.490] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 64
+[298月2026 23:02:05.513] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[298月2026 23:02:05.513] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[298月2026 23:02:05.516] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[298月2026 23:02:05.596] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 34864 (auto-detected)
+[298月2026 23:02:05.597] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[298月2026 23:02:05.597] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[298月2026 23:02:05.609] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[298月2026 23:02:05.611] [Server thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[298月2026 23:02:05.644] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 1c:83:41:ff:fe:c9:c2:67 (auto-detected)
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 64
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 64
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[298月2026 23:02:05.661] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[298月2026 23:02:05.671] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[298月2026 23:02:05.671] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[298月2026 23:02:05.671] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[298月2026 23:02:05.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[298月2026 23:02:05.694] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[298月2026 23:02:05.694] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\forge-server.toml
+[298月2026 23:02:05.696] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\forge-server.toml
+[298月2026 23:02:05.697] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\forge-server.toml for changes
+[298月2026 23:02:05.697] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[298月2026 23:02:05.697] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringBlockEntities does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringEntities does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBaseSummonChance does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBabyChance does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.permissionHandler does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.advertiseDedicatedServerToLan does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.useItemWithDurationZero does not match the spec. This may create a backup.
+[298月2026 23:02:05.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server does not match the spec. This may create a backup.
+[298月2026 23:02:05.699] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[298月2026 23:02:05.700] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\immersiveengineering-server.toml
+[298月2026 23:02:05.700] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\immersiveengineering-server.toml
+[298月2026 23:02:05.701] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\immersiveengineering-server.toml for changes
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\immersiveengineering-server.toml is not correct. Correcting
+[298月2026 23:02:05.701] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.701] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.sanitizeConnections was corrected from null to its default, false. 
+[298月2026 23:02:05.701] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.sanitizeConnections does not match the spec. This may create a backup.
+[298月2026 23:02:05.701] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.copper.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.transferRate was corrected from null to its default, 2048. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.copper.transferRate does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.loss was corrected from null to its default, 0.05. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.copper.loss does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.copper.wireConnectorInput was corrected from null to its default, 256. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.copper.wireConnectorInput does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.electrum.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.transferRate was corrected from null to its default, 8192. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.electrum.transferRate does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.loss was corrected from null to its default, 0.025. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.electrum.loss does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.electrum.wireConnectorInput was corrected from null to its default, 1024. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.electrum.wireConnectorInput does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.hv.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.transferRate was corrected from null to its default, 32768. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.hv.transferRate does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.loss was corrected from null to its default, 0.025. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.hv.loss does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.hv.wireConnectorInput was corrected from null to its default, 4096. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.hv.wireConnectorInput does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.rope was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.rope.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.rope.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.cable was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.cable.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.cable.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.redstone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.redstone.maxLength was corrected from null to its default, 32. 
+[298月2026 23:02:05.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.redstone.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_copper.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.insulated_copper.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_electrum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.insulated_electrum.maxLength was corrected from null to its default, 16. 
+[298月2026 23:02:05.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.insulated_electrum.maxLength does not match the spec. This may create a backup.
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.enableWireDamage was corrected from null to its default, true. 
+[298月2026 23:02:05.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.enableWireDamage does not match the spec. This may create a backup.
+[298月2026 23:02:05.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.blocksBreakWires was corrected from null to its default, true. 
+[298月2026 23:02:05.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires.blocksBreakWires does not match the spec. This may create a backup.
+[298月2026 23:02:05.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key wires does not match the spec. This may create a backup.
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv.storage was corrected from null to its default, 100000. 
+[298月2026 23:02:05.704] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.lv.storage does not match the spec. This may create a backup.
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv.input was corrected from null to its default, 256. 
+[298月2026 23:02:05.704] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.lv.input does not match the spec. This may create a backup.
+[298月2026 23:02:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.lv.output was corrected from null to its default, 256. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.lv.output does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.lv does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv.storage was corrected from null to its default, 1000000. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.mv.storage does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv.input was corrected from null to its default, 1024. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.mv.input does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.mv.output was corrected from null to its default, 1024. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.mv.output does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.mv does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv.storage was corrected from null to its default, 4000000. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.hv.storage does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv.input was corrected from null to its default, 4096. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.hv.input does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.capacitors.hv.output was corrected from null to its default, 4096. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.hv.output does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.capacitors.hv does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo_output was corrected from null to its default, 3.0. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.dynamo_output does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.thermoelectric_output was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.thermoelectric_output does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lightning_output was corrected from null to its default, 16000000. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.lightning_output does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dieselGen_output was corrected from null to its default, 4096. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.dieselGen_output does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.external_heater was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.external_heater.consumption was corrected from null to its default, 8. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.external_heater.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.external_heater.speedupConsumption was corrected from null to its default, 24. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.external_heater.speedupConsumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.preheater_consumption was corrected from null to its default, 32. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.preheater_consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.coredrill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.coredrill.time was corrected from null to its default, 200. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.coredrill.time does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.coredrill.consumption was corrected from null to its default, 40. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.coredrill.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump.consumption was corrected from null to its default, 250. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.pump.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump.consumption_accelerate was corrected from null to its default, 5. 
+[298月2026 23:02:05.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.pump.consumption_accelerate does not match the spec. This may create a backup.
+[298月2026 23:02:05.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.pump.placeCobble was corrected from null to its default, true. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.pump.placeCobble does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.charger_consumption was corrected from null to its default, 256. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.charger_consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil.consumption was corrected from null to its default, 256. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.teslacoil.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil.consumption_active was corrected from null to its default, 512. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.teslacoil.consumption_active does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.teslacoil.damage was corrected from null to its default, 6.0. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.teslacoil.damage does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret.consumption was corrected from null to its default, 64. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.turret.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret.chem_consumption was corrected from null to its default, 32. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.turret.chem_consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.turret.gun_consumption was corrected from null to its default, 32. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.turret.gun_consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.consumption was corrected from null to its default, 8. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.garden_cloche.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.fertilizer was corrected from null to its default, 6000. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.garden_cloche.fertilizer does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.fluid was corrected from null to its default, 250. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.garden_cloche.fluid does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.garden_cloche.growth_modifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.garden_cloche.growth_modifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern.spawnPrevent was corrected from null to its default, true. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.lantern.spawnPrevent does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern.energyDraw was corrected from null to its default, 1. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.lantern.energyDraw does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.lantern.maxStorage was corrected from null to its default, 10. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.lantern.maxStorage does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight.spawnPrevent was corrected from null to its default, true. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.floodlight.spawnPrevent does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight.energyDraw was corrected from null to its default, 5. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.floodlight.energyDraw does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.floodlight.max_storage was corrected from null to its default, 80. 
+[298月2026 23:02:05.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.floodlight.max_storage does not match the spec. This may create a backup.
+[298月2026 23:02:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.metal_press was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.metal_press.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.metal_press.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.metal_press.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.metal_press.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.crusher was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.crusher.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.crusher.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.crusher.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.crusher.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.squeezer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.squeezer.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.squeezer.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.squeezer.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.squeezer.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fermenter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fermenter.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.fermenter.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fermenter.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.fermenter.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.refinery was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.refinery.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.refinery.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.auto_workbench was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.auto_workbench.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.auto_workbench.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.auto_workbench.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.auto_workbench.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.bottling_machine was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.bottling_machine.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.bottling_machine.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.bottling_machine.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.bottling_machine.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.mixer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.mixer.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.mixer.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.mixer.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.mixer.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.sawmill.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.sawmill.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.sawmill_bladeDamage was corrected from null to its default, 5. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.sawmill_bladeDamage does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.energyModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.arc_furnace.energyModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.timeModifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.arc_furnace.timeModifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.electrodeDamage was corrected from null to its default, 96000. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.arc_furnace.electrodeDamage does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.arc_furnace.recycle was corrected from null to its default, . 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.arc_furnace.recycle does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.assembler_consumption was corrected from null to its default, 80. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.assembler_consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.consumption was corrected from null to its default, 4096. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.excavator.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.speed was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.excavator.speed does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.particles was corrected from null to its default, true. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.excavator.particles does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.chance was corrected from null to its default, 0.9. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.excavator.chance does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.yield was corrected from null to its default, 38400. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.excavator.yield does not match the spec. This may create a backup.
+[298月2026 23:02:05.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.excavator.initial_depletion was corrected from null to its default, 0.2. 
+[298月2026 23:02:05.709] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key machines.excavator.initial_depletion does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite.distribution does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite.air_exposure does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.vein_size was corrected from null to its default, 6. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite.vein_size does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.min_y was corrected from null to its default, 32. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite.min_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.max_y was corrected from null to its default, 112. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite.max_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.attempts_per_chunk was corrected from null to its default, 16. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite.attempts_per_chunk does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.bauxite.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite.retrogen_enable does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.bauxite does not match the spec. This may create a backup.
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.710] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead.distribution does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead.air_exposure does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.vein_size was corrected from null to its default, 8. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead.vein_size does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.min_y was corrected from null to its default, -32. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead.min_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.max_y was corrected from null to its default, 80. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead.max_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.attempts_per_chunk was corrected from null to its default, 12. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead.attempts_per_chunk does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.lead.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead.retrogen_enable does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.lead does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver.distribution does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.air_exposure was corrected from null to its default, 0.25. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver.air_exposure does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.vein_size was corrected from null to its default, 9. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver.vein_size does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.min_y was corrected from null to its default, -48. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver.min_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.max_y was corrected from null to its default, 32. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver.max_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.attempts_per_chunk was corrected from null to its default, 10. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver.attempts_per_chunk does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.silver.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver.retrogen_enable does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.silver does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.distribution was corrected from null to its default, UNIFORM. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel.distribution does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel.air_exposure does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.vein_size was corrected from null to its default, 5. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel.vein_size does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.min_y was corrected from null to its default, -64. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel.min_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.max_y was corrected from null to its default, 24. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel.max_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.attempts_per_chunk was corrected from null to its default, 7. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel.attempts_per_chunk does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.nickel.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel.retrogen_enable does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.nickel does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel.distribution does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.air_exposure was corrected from null to its default, 0.0. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel.air_exposure does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.vein_size was corrected from null to its default, 6. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel.vein_size does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.min_y was corrected from null to its default, -120. 
+[298月2026 23:02:05.712] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel.min_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.max_y was corrected from null to its default, -8. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel.max_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.attempts_per_chunk was corrected from null to its default, 11. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel.attempts_per_chunk does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.deep_nickel.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel.retrogen_enable does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.deep_nickel does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.distribution was corrected from null to its default, TRAPEZOID. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium.distribution does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.air_exposure was corrected from null to its default, 0.5. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium.air_exposure does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.vein_size was corrected from null to its default, 4. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium.vein_size does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.min_y was corrected from null to its default, -64. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium.min_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.max_y was corrected from null to its default, -16. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium.max_y does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.attempts_per_chunk was corrected from null to its default, 9. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium.attempts_per_chunk does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.uranium.retrogen_enable was corrected from null to its default, false. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium.retrogen_enable does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.uranium does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.retrogen_key was corrected from null to its default, DEFAULT. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.retrogen_key does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.retrogen_log_flagChunk was corrected from null to its default, true. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.retrogen_log_flagChunk does not match the spec. This may create a backup.
+[298月2026 23:02:05.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ores.retrogen_log_remaining was corrected from null to its default, true. 
+[298月2026 23:02:05.713] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key ores.retrogen_log_remaining does not match the spec. This may create a backup.
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.hammer_durability was corrected from null to its default, 100. 
+[298月2026 23:02:05.714] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.hammer_durability does not match the spec. This may create a backup.
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.cutter_durability was corrected from null to its default, 250. 
+[298月2026 23:02:05.714] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.cutter_durability does not match the spec. This may create a backup.
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.casull was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.714] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.casull does not match the spec. This may create a backup.
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.ap was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.714] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.ap does not match the spec. This may create a backup.
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.buck was corrected from null to its default, 2.0. 
+[298月2026 23:02:05.714] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.buck does not match the spec. This may create a backup.
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.dragon was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.714] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.dragon does not match the spec. This may create a backup.
+[298月2026 23:02:05.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.homing was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.714] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.homing does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.wolfpack was corrected from null to its default, 4.0. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.wolfpack does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.wolfpack_part was corrected from null to its default, 8.0. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.wolfpack_part does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.silver was corrected from null to its default, 10.0. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.silver does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bullet_damage.phial was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.bullet_damage.phial does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.chemthrower was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.chemthrower.consumption was corrected from null to its default, 10. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.chemthrower.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.chemthrower.scroll was corrected from null to its default, true. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.chemthrower.scroll does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.railgun was corrected from null to its default, SimpleCommentedConfig:{}. 
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.railgun.consumption was corrected from null to its default, 800. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.railgun.consumption does not match the spec. This may create a backup.
+[298月2026 23:02:05.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.railgun.damage_modifier was corrected from null to its default, 1.0. 
+[298月2026 23:02:05.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key tools.railgun.damage_modifier does not match the spec. This may create a backup.
+[298月2026 23:02:05.723] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file immersiveengineering-server.toml changed, sending notifies
+[298月2026 23:02:05.748] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[298月2026 23:02:05.752] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[298月2026 23:02:05.758] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[298月2026 23:02:05.761] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[298月2026 23:02:05.763] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[298月2026 23:02:05.775] [Server thread/DEBUG] [mixin/]: Mixing accessors.DamageSourcesAccess from immersiveengineering.mixins.json into net.minecraft.world.damagesource.DamageSources
+[298月2026 23:02:06.641] [Worker-Main-1/DEBUG] [mixin/]: Mixing accessors.PaletteAccess from immersiveengineering.mixins.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate$Palette
+[298月2026 23:02:06.641] [Worker-Main-1/DEBUG] [mixin/]: Renaming @Invoker method construct(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$Palette; to construct_$md$5273f1$0 in immersiveengineering.mixins.json:accessors.PaletteAccess
+[298月2026 23:02:07.747] [Worker-Main-24/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[298月2026 23:02:07.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[298月2026 23:02:08.314] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[298月2026 23:02:08.327] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[298月2026 23:02:08.824] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[298月2026 23:02:09.326] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[298月2026 23:02:09.841] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[298月2026 23:02:10.331] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[298月2026 23:02:10.824] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[298月2026 23:02:11.328] [Worker-Main-27/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[298月2026 23:02:11.828] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[298月2026 23:02:12.324] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[298月2026 23:02:13.950] [Worker-Main-25/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[298月2026 23:02:13.950] [Worker-Main-25/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[298月2026 23:02:13.957] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[298月2026 23:02:14.326] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[298月2026 23:02:14.824] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[298月2026 23:02:15.325] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[298月2026 23:02:15.828] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[298月2026 23:02:16.333] [Worker-Main-28/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[298月2026 23:02:16.829] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[298月2026 23:02:17.341] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[298月2026 23:02:17.853] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[298月2026 23:02:18.324] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[298月2026 23:02:18.824] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[298月2026 23:02:19.312] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpTimeoutException: request timed out
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:571) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.4.23.jar%23197!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.4.23.jar%23197!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.23.jar%23197!/:?]
+[298月2026 23:02:19.324] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[298月2026 23:02:19.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[298月2026 23:02:20.327] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[298月2026 23:02:20.824] [Worker-Main-30/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[298月2026 23:02:21.334] [Worker-Main-24/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[298月2026 23:02:21.828] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[298月2026 23:02:22.328] [Worker-Main-28/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[298月2026 23:02:22.766] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14943 ms
+[298月2026 23:02:22.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.072s)! For help, type "help"
+[298月2026 23:02:22.773] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[298月2026 23:02:22.779] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 1622
+[298月2026 23:02:22.779] [Server thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [better_ie_coke_oven]
+[298月2026 23:02:22.783] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[298月2026 23:02:22.811] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 radiator, missing knowledge for {1 water_bucket=0.25}
+[298月2026 23:02:22.811] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 27 milliseconds
+[298月2026 23:02:22.822] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[298月2026 23:02:22.822] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[298月2026 23:02:22.822] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@745d7d19
+[298月2026 23:02:23.679] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Could not load contributor+special revolver list.
+java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[?:?]
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at java.net.URL.openStream(URL.java:1161) ~[?:?]
+	at blusunrize.immersiveengineering.ImmersiveEngineering$ThreadContributorSpecialsDownloader.run(ImmersiveEngineering.java:329) ~[ImmersiveEngineering-deobf.jar%23191!/:?]

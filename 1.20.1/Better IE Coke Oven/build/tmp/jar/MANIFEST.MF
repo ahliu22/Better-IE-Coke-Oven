@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: better_ie_coke_oven
+Specification-Vendor: ah_liu22
+Specification-Version: 1
+Implementation-Title: BetterIECokeOven
+Implementation-Version: 1.0.0-1.20.1
+Implementation-Vendor: ah_liu22
+Implementation-Timestamp: 2026-08-29T23:01:34+0800
+MixinConfigs: better_ie_coke_oven.mixins.json
+
